@@ -1,0 +1,248 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  width: 100% ;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 10px;
+  height: 45px;
+}
+
+.navbar {
+  width: 100%;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  /* display: inline-block; */
+  float: right;
+  padding: 0;
+  margin: 0 10px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.header {
+  background-image: url(./images/city-scape.svg);
+  position: 0 0;
+  background-repeat: no-repeat;
+  size: cover;
+  background-size: contain;
+  height: 330px;
+  color: white;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.searchimg {
+  height: 20px;
+}
+.npm-logo {
+  height: 45px;
+  float: left;
+}
+.bearlogo {
+   padding: 1px 0;
+    width: 20%;
+    position: relative;
+    top: 10px;
+}
+.searchbar {
+  padding: 10px;
+}
+
+.searchbartwo {
+  float: center;
+  width: 73%;
+  margin: 2px 0 0 15px;
+  padding: 10px 5px 5px 15px;
+  height: 20px;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  border: none;
+  background-color: rgb(31, 82,111);
+  
+}
+
+.bearbar {
+   text-align: left;
+   float: right;
+    width: auto;
+    position: relative;
+    bottom: 70px;
+    left: 36px;
+}
+.bearbar li {
+  list-style: none;
+  text-align: center;
+  display: inline;
+}
+.bearbar a, span{
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+
+.search-btn {
+  border: none;
+  border-left: 1px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.8);
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+}
+
+.intro {
+   text-align: left;
+   position: relative;
+    left: 343px;
+    bottom: 85px;
+}
+
+
+.intro h1 {
+  font-weight: 25;
+}
+
+.introtwo p {
+  font-size: 14px;
+}
+
+.signup-btn {
+  background-color: rgb(240, 146, 51);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px 12px 12px 12px;
+  padding: 5px 15px 5px 15px;
+  }
+
+.intro a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+.general-information {
+  background: rgb(39, 53, 71);
+}
+
+.collabimg {
+  position: relative;
+  width: 30%;
+  left: 20%;
+  top: 95px;
+}
+
+.npmorgs {
+  color: white;
+  position: relative;
+  left: 53%;
+  bottom: 200px;
+}
+
+.npmorgs h2 {
+  font-weight: 10;
+  font-size: 1.9em;
+}
+
+.npmorgs ul {
+  font-size: 1em;
+  line-height: 200%;
+}
+
+.signup-btn2 {
+  background-color: rgb(203, 56, 55);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px 12px 12px 12px;
+  padding: 5px 15px 5px 15px;
+}
+
+.general-information a {
+  color: white;
+  text-decoration: none;
+}
+
+.about {
+  background-image: url(./images/forklift.svg);
+  height: 330px;
+  position: relative;
+  bottom: 25px;
+}
+
+.about2 {
+  position: relative;
+  top: 35px;
+  left: 310px;
+  color: white;
+}
+
+.about2 h2 {
+  font-weight: 10;
+  font-size: 1.9em;
+  position: relative;
+  top: 10px;
+}
+.about2 p {
+  font-size: 14px;
+}
+.install {
+  background-color: rgb(49, 68,88);
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px 12px 12px 12px;
+  padding: 5px 20px 5px 20px;
+  position: relative;
+  left: 1px;
+}
+
+.install a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+   position: relative;
+    left: 20px;
+    top: 15px;
+    text-align: center;
+}
+
+.footerbox {
+  width: 33%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.row {
+  width: 100%;
+}
+
+.service-box{
+  display: inline;
+  
+
+}
